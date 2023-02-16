@@ -1,14 +1,172 @@
-h1{
-    color: #04262c; 
-}
-   h2{
-    color: rgb(19, 27, 3); 
-   }
-body{
-    background-color: #0d9c4d;
+/*  
+*{
+   border-top: 5px solid #FF6B35; مثال
+   لتحديد عنصر على جميع الكود بدون ستتناء
+} 
+*/
 
-}
-.img{
-   border: #148296;
-}
+body{
+    color: #444 ;
+    font-family: sans-serif;
+    margin: 0;
     
+  }
+  p{
+    margin: 20px
+  }
+  
+  /* h1,
+  h2,
+  h3,
+  h4,
+  p,
+  li,
+  ol{
+  
+  
+  } */
+  
+  h1,
+  h2,
+  h3{
+    color: #145C9E;
+  }
+  
+  h1 {
+  color: #145C9E;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  h2{
+    color: #145C9E;
+    font-size: 40px;
+  }
+  
+  h3{
+    color: #145C9E;
+   font-size: 30px;
+  }
+  
+  h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color:  #145C9E;
+    
+  }
+  p{
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  
+  li{
+    font-size: 20px;
+  }
+  
+  ol{
+    font-size: 20px;
+  }
+  /*footer p{
+    font-size: 16px;
+  }*/
+   /*article header p
+  {
+    font-style: italic; det blastha id:ktebt fiha (ot1)
+  }
+    */
+  #ot1{ 
+    font-style: italic;
+  }
+  #Copyright{
+    font-size: 16px;
+  }
+  .RELATED-POST{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .related{
+    list-style: none;
+  }
+  
+  .teter2{
+   border: 5px solid #000;
+  }
+  .teter{ 
+    background-color: #FFFECB;
+    border: 5px solid #FF6B35;
+   
+    
+  }
+  .Related-post1  {
+    background-color: #FFFECB;
+    border-top: 5px solid #FF6B35;
+    border-bottom: 5px solid #FF6B35;
+     border-right: 5px solid #000;
+   border-left: 5px solid #000;
+  }
+  body{background-color:#44444423;}
+  
+   /* .first-li{
+    font-weight: bold; لجعل الخط عريض
+  
+    li: first-child <--- (li) تقوم بعزل أول إختيار في  جميع
+    
+    li:last-child <---- (li) تقوم بعزل أخر إختيار في  جميع
+    li:nth-child(2)<---- (li) تقوم تغير في السطر المحدد برقمه أو كتابة   الكل لعزل الكل و دلك بكتابت odd
+  
+    a:hover{ --- عند تمرير السوري يتغير الخط و اللون
+    color: orangered !important  تأكيد على أنها التي ستستخدم;
+    font-weight: bold;
+    text-decoration: underline orangered; 
+  
+    a:active{ عند الضغط على الرابط يتغير شكله حسب ما كتبت 
+   
+  
+  
+   */
+  li:first-child{
+    font-weight: bold;
+  }
+  li:last-child{
+    font-style: italic;
+    font-weight: bold;
+  }
+  li:nth-child(2){
+    font-weight: bold;
+  }
+  a:link{
+    color: #0D21A1;
+    text-decoration: none;
+  }
+  a:visited{
+    /* color: #cc2424; */
+    color: #0D21A1;
+  }
+   a:hover{
+    
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+  } 
+  a:active{
+    color: #000;
+    font-style: italic;
+  }
+  /* LVHA */
+  li:nth-child(3){
+    font-weight: bold;
+  }
+  li:nth-child(4){
+    font-weight: bold;
+  }
+  
+  nav a:link{
+    font-size: 17px;
+  }
+  .image-code{
+   width: 100%;
+   height: 50%;
+  }
